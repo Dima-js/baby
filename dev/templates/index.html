@@ -9,8 +9,8 @@
         <div class="wrapper">
           <div class="header-btn">
             <div class="header-btn1">
-              <a href="#" title="Умови акції">Умови акції</a>
-              <a href="#" title="Зворотній зв’язок">Зворотній зв’язок</a>
+              <a href="#rules-popup" class="pupup_rules_akcia" title="Умови акції">Умови акції</a>
+              <a href="#feedback-popup" class="pupup_rules_akcia" title="Зворотній зв’язок">Зворотній зв’язок</a>
             </div>
             <a href="babyloovi.com" class="ofsite" title="babyloovi.com">babyloovi.com</a>
           </div>
@@ -35,7 +35,7 @@
               <p> що прикрасять життя будь-якої мами</p>
             </div>
             <div class="wrap-btn-umovu">
-              <a href="#" title="Умови акції" class="umovu" >Умови акції</a>
+              <a href="#rules-popup" title="Умови акції"  class="umovu pupup_rules_akcia" >Умови акції</a>
             </div>
 
           </div>
@@ -126,7 +126,7 @@
           </div>
           <div class="wrapper-btn">
             <div class="wrap-btn">
-              <a href="#" title="Купити" class="umovu" >Купити</a>
+              <a href="#order-popup"  title="Купити" class="umovu pupup_rules_akcia" >Купити</a>
               <div class="price-block">
                 <div class="price-img">
                   <img src="../img/btn-before-price.png">
@@ -153,16 +153,16 @@
           <p>Зітри захисний шар, як показано на зображенні, заповни форму та реєструйся у акції</p>
           <form action="#" method="post">
             <div class="wrap-input">
-              <input type="text" name="user-name" class="user-name" placeholder="Ім’я">
+              <input type="text" name="user-name" class="user-name" required placeholder="Ім’я">
             </div>
             <div class="wrap-input">
-              <input type="text" name="phone-number" class="phone-number" placeholder="Телефон">
+              <input type="text" name="phone-number" class="phone-number val" required placeholder="Телефон">
             </div>
             <div class="wrap-input">
-              <input type="email" name="email" class="email" placeholder="E-mail">
+              <input type="email" name="email" class="email" placeholder="E-mail" required>
             </div>
             <div class="wrap-input">
-              <input type="text" name="sicret-code" class="sicret-code" placeholder="Секретний код">
+              <input type="text" name="sicret-code" class="sicret-code" placeholder="Секретний код" required>
               <div class="sicret-img">
                 <img src="../img/sicret-img.png">
               </div>
@@ -210,7 +210,7 @@
           <div class="wrap-valid-number">
             <p>Для перевірки результатів розіграшу<br> введіть свій номер телефону у форматі +38(хх) ХХХ-ХХ-ХХ та натисність “Перевірити”</p>
             <form action="#" method="post" name="valid-number">
-              <input type="text" name="valid-number-phone" class="valid-number-phone" >
+              <input type="text" name="valid-number-phone" class="valid-number-phone val" required>
               <div class="wrap-btn-form">
                 <button type="submit" class="umovu">Перевірити</button>
               </div>
@@ -223,7 +223,124 @@
         </div>
       </div>
     </div>
+    <div id="rules-popup" class="white-popup mfp-hide">
+     <div class="pupup_content_rules">
+       <div class="btn-close"></div>
+       <h3>Правила акції</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+         Pellentesque eget erat porta libero interdum pulvinar.
+         Donec ac efficitur enim.
+         Curabitur volutpat eleifend nulla, euismod facilisis nunc fringilla quis.
+         Curabitur faucibus viverra est, nec semper nunc egestas eu. Cras pharetra hendrerit nisl.
+         Aliquam posuere odio at lectus commodo laoreet.
+         In cursus at tortor tincidunt commodo.
+         Fusce lectus mi, dictum sit amet vulputate volutpat, feugiat nec dolor.
+         Ut pellentesque aliquet eros a blandit.
+         Sed vitae viverra leo.
+         Praesent ac ligula in metus consectetur aliquet eget nec urna.
+         Nullam placerat ante sed elit accumsan, eget faucibus purus pulvinar.
+         Curabitur est nisi, molestie eget mauris sed, aliquet gravida nisi.
+         Etiam nisl magna, convallis eu pharetra at, tristique nec tellus.
+         Maecenas luctus placerat ex, vitae aliquet tortor gravida id.
+          </p>
+       <p>
+           Vestibulum id elementum tortor, quis laoreet risus.
+         Aliquam nec laoreet dui.
+         Ut id ex eros.
+         In porttitor augue volutpat mi faucibus commodo.
+         Duis faucibus mollis viverra.
+         Donec ligula elit, congue sed malesuada ut, pharetra et nunc.
+         Nullam eu est quis est sodales pretium at quis nibh.
+         Donec finibus sed turpis eget semper.
+         Proin id neque eu augue efficitur convallis.
+         Vivamus at neque tellus.
+         Mauris varius arcu vel massa interdum, eget viverra sem venenatis.
+         Donec id euismod ligula.
+         Pellentesque placerat enim eget lobortis facilisis.
+         Maecenas eu ornare velit.
+         Suspendisse hendrerit, lorem ut maximus eleifend, nisl nibh vulputate erat, nec tristique nisl lacus eu nibh.
+       </p>
+       <p>  Praesent id imperdiet urna, quis tempus mauris. Curabitur sed sapien gravida, molestie metus eget, eleifend sem. Donec sollicitudin purus quis pulvinar dignissim. Integer orci sapien, facilisis nec nulla feugiat, tincidunt tempus tortor. Maecenas maximus magna in turpis porta, euismod porta arcu dignissim. Curabitur sit amet libero libero. Mauris cursus mi sed laoreet gravida. Ut purus purus, tincidunt venenatis varius et, accumsan in libero. Donec a dignissim nisi. Integer posuere elit vitae quam mollis consectetur.  Aenean vehicula urna sapien, et tempus ipsum eleifend vel. Etiam feugiat est aliquet dolor maximus pretium. In varius suscipit libero, in rhoncus lorem aliquet a. In eu ex eget neque fermentum eleifend. Suspendisse non aliquam lorem. Integer congue hendrerit tincidunt. Mauris gravida nulla ac congue vehicula. Ut vitae aliquet elit. Aenean sed elit orci. Duis vehicula suscipit turpis, nec aliquam elit maximus aliquam. Aliquam id odio quis est vehicula convallis nec nec leo. Phasellus arcu elit, posuere vel scelerisque et, condimentum quis risus. Nunc enim sem, aliquet et risus id, fermentum dapibus lectus. Pellentesque lacinia eros quis ligula efficitur sagittis. Aliquam sed nisl ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Maecenas elementum ut risus a sagittis. Proin neque elit, auctor in sagittis et, molestie in tellus. Etiam gravida erat neque, et faucibus quam auctor ac. Vivamus egestas sem vestibulum velit malesuada imperdiet. Praesent mattis nulla sit amet facilisis tincidunt. In nec ligula vel tellus luctus congue. Vestibulum a ultricies magna, non viverra leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras euismod sem ac nibh finibus luctus. Morbi sollicitudin elementum feugiat.</p>
+     </div>
+    </div>
 
+    <div id="feedback-popup" class="white-popup mfp-hide">
+      <div class="pupup_content_rules">
+        <div class="btn-close"></div>
+        <div class="feedback-wrap">
+          <h3>Зворотній зв’язок</h3>
+          <p>Якщо Ви маєте запитання, пропозиції або зауваження, будь-ласка, напишіть їх нам і вони будуть оброблені найближчим часом.</p>
+          <form action="#" method="post">
+            <div class="feadback-form">
+              <input type="text" class="user-name-fb" placeholder="Ім’я" required>
+              <input type="text" class="phone-number-fb val" placeholder="Телефон" required>
+              <input type="email" class="email-fb" placeholder="E-mail" required>
+            </div>
+           <textarea  class="message-fb" placeholder="Повідомлення" required>
+
+           </textarea>
+            <div class="wrap-submit">
+              <div class="wrap-btn-umovu">
+                <button type="submit" class="umovu">Надіслати</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        </div>
+      </div>
+
+
+    <div id="order-popup" class="white-popup mfp-hide">
+      <div class="pupup_content_rules">
+        <div class="btn-close"></div>
+        <div class="order-wrap">
+          <h3>Форма замовлення</h3>
+          <p>Введіть адресу, на яку необхідно доставити відправлення.  Будь ласка, будьте уважні при заповненні полів</p>
+          <form method="post" name="order-form" class="order-form">
+            <div class="order-block">
+              <input type="text" class="order-user-name" placeholder="Ім’я" required>
+              <input type="text" class="order-phone-number val" placeholder="Телефон" required>
+              <input type="text" class="order-email" placeholder="E-mail" required>
+            </div>
+            <div class="order-block">
+              <input type="text" class="order-index" placeholder="Індекс" required>
+              <input type="text" class="order-adress" placeholder="Адреса доставки" required>
+            </div>
+            <div class="order-block">
+
+              <div class="order-last-step1">
+                <span>Обрати модель:</span>
+                <div class="sel sel--black-panther">
+                  <select name="select-profession" id="select-profession" required>
+                    <option value="Качечка" >Качечка</option>
+                    <option value="Качечка2">Качечка2</option>
+                    <option value="Качечка3">Качечка3</option>
+                  </select>
+                </div>
+              </div>
+             <div class="order-last-step2">
+               <div class="block">
+                 <span>Кількість</span>
+                 <div class="quantity">
+                   <input type="number" min="1" max="1000" step="1" value="1" onchange="sum();" readonly>
+                 </div>
+               </div>
+               <div class="block">
+                 <span>Вартість, грн</span>
+                 <input type="text" class="sum_product"  readonly>
+               </div>
+               <div class="block">
+                   <div class="wrap-btn-umovu">
+                     <button type="submit" class="umovu">Надіслати</button>
+                   </div>
+               </div>
+             </div>
+            </div>
+          </form>
+        </div>
+
+        </div>
+      </div>
   </div>
 
 </div>

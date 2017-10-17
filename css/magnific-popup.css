@@ -6,7 +6,7 @@
   height: 100%;
   z-index: 1042;
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   background: #fce9f6;
   opacity: 0.5; }
 

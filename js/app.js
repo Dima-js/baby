@@ -3,11 +3,15 @@ $(document).ready(function() {
         {
             type:'inline',
             midClick: true,
-            showCloseBtn: false
+            showCloseBtn: false,
+            mainClass: 'animated slideInDown'
         }
     );
     $('.btn-close').click(function() {
-        $.magnificPopup.close();
+        $.magnificPopup.close({
+                mainClass: 'animated slideOutDown'
+        }
+        );
     });
 function sum() {
     var suma;
@@ -16,7 +20,9 @@ function sum() {
 }
     sum();
 
+    $('.header-btn1 a:first-child').click(function() {
 
+    });
 });
 
 jQuery(function($) {
